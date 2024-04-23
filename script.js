@@ -18,7 +18,7 @@ const score = document.querySelector(".score-score");
 score.innerText = localStorage.getItem("score");
 
 var links = [
-    "https://random-words-api.herokuapp.com/w?n=1"];
+    "https://random-word-api.herokuapp.com/word?number=1"];
 
 var link = links[Math.floor(Math.random() * links.length)];
 
